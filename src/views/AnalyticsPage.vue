@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ChatComponent from '../../registry/new-york/chat-component/ChatComponent.vue'
+import ChatComponent from '@/components/registry/new-york/chat-component/ChatComponent.vue'
 </script>
 
 <template>
