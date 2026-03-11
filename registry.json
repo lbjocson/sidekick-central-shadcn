@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "sidekick-central",
+  "homepage": "https://github.com/LJocson/sidekick-central-shadcn",
+  "items": [
+    {
+      "name": "chat-component",
+      "type": "registry:block",
+      "title": "Chat Component",
+      "description": "A full-featured chat UI with scrollable message list, user/AI bubbles, avatar, typing indicator, and a textarea input group. Supports custom initial messages, placeholder text, and a `send` emit for wiring up real AI services.",
+      "files": [
+        {
+          "path": "registry/new-york/chat-component/ChatComponent.vue",
+          "type": "registry:component"
+        }
+      ],
+      "dependencies": ["@iconify/vue", "@iconify-json/ph"],
+      "registryDependencies": ["avatar", "button", "input-group"]
+    }
+  ]
+}
